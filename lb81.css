@@ -1,0 +1,16 @@
+Hlo
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+}
+
+.book {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px;
+}
