@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+
+nav {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.card {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+
+button {
+    padding: 10px 20px;
+}
+
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .card {
+        display: block;
+    }
+}
